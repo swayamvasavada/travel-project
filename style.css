@@ -1,0 +1,90 @@
+#main {
+    height: 800px;
+    background-image: url(images/places/ocean.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#main-content {
+    width: 900px;
+    background-color: rgba(51, 47, 47, 0.8);
+    box-shadow: 2px 4px 8px rgb(68, 67, 67);
+    border-radius: 8px;
+    text-align: center;
+    padding: 50px 0;
+    margin: 0 auto;
+    position: relative;
+    top: 200px;
+}
+
+#main-content h1 {
+    color: white;
+    text-transform: uppercase;
+    font-size: 50px;
+    font-family: "Raleway", sans-serif;
+    margin: 0;
+    font-weight: 300;
+}
+
+#main-content p {
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 32px;
+}
+
+#main-content a {
+    background-color: yellow;
+    border-radius: 8px;
+    padding: 12px 24px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    box-shadow: 2px 4px 8px rgb(68, 67, 67);
+}
+
+#main-content a:hover,
+#main-content a:active {
+    background-color: orange;
+}
+
+.destination img {
+    height: 200px;
+    box-shadow: 2px 4px 8px rgb(68, 67, 67);
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+#destination {
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+#highlights {
+    padding: 24px;
+    background: linear-gradient(15deg, rgb(227, 255, 253), rgb(10, 134, 126));
+}
+
+#highlights h2 {
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(59, 65, 64);
+    font-size: 40px;
+    margin: 24px 0;
+}
+
+.destination {
+    text-transform: uppercase;
+    font-size: 24px;
+    color: grey;
+    margin: 20px 0;
+}
+
+.destination p {
+    text-align: center;
+}
+
+.destination strong {
+    color: rgb(0, 160, 115);
+}
